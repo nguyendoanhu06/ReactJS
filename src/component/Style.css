@@ -1,0 +1,121 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* MENU */
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item-a{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.menu-item-a .icon{
+    color: white;
+    height: 25px;
+    padding: 10px;
+}
+.menu-item, .menu-item-b{
+    display: flex;
+    color: gray;
+}
+.menu-item p{
+    border-right: 2px solid gray;
+    padding-right: 45px;
+    /* padding-left: 40px; */
+    
+}
+.menu-item .icon, .menu-item-b .icon{
+    color: red;
+    height: 25px;
+    padding: 10px;
+}
+/* BANNER */
+.banner{
+    display: flex;
+    
+}
+.banner-left img{
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+}
+.banner-right img{
+    width: 400px;
+    margin-top: 20px;
+}
+.banner-right{
+    margin-left: 30px; 
+}
+.content {
+    padding: 10px;
+    font-weight: bold;
+}
+/* PRODUCT */
+.product{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(208, 220, 223);
+}
+/* PRODUCT ITEM */
+.product-item{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 40px 10px 10px;
+    width: 275px;
+    font-weight: bold;
+}
+.product-item img{
+    width: 200px;
+    margin-left: 50px;
+}
+
+.price-off{
+    /* line-height: 2px; */
+    margin-bottom: 5px;
+    color: red;
+    font-weight: bold;
+}
+.price-discount{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    
+}
+.price-discount .price{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: line-through;
+    color: gray;
+    margin: 0px;
+}
+.discount{
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    color: white;
+}
+.add{
+    display: flex;
+    text-decoration: none;
+}
+.add a{
+    text-decoration: none;
+    color: blue;
+}
+/* .add-icon-border{
+    border: 1px solid blue;
+    border-radius: 35px;
+}
+.add-icon{
+    width: 10px;
+    height: px;
+} */
